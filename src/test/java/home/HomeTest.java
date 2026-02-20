@@ -1,4 +1,4 @@
-package about;
+package home;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -6,15 +6,15 @@ import org.testng.annotations.Test;
 import base.BaseTest;
 import base.DriverFactory;
 
-public class ViewAboutTest extends BaseTest{
-	private ViewAbout viewAbout;
+public class HomeTest extends BaseTest{
+	private Home home;
 	@BeforeClass
 	public void initPages() {
-		viewAbout = new ViewAbout(DriverFactory.getDriver());
+		home = new Home(DriverFactory.getDriver());
 	}
 	
 	@Test(description = "about page test section here")
 	public void testAbout() {
-		 viewAbout.viewAbout();
+		 home.openHomePage();
 	}
 }

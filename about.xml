@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="About Page TestCases">
+	<listeners>
+		<listener class-name="listeners.TestListener" />
+	</listeners>
+	<test name="Test">
+		<classes>
+		    <class name="about.ViewAboutTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
+ 
