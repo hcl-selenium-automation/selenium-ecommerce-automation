@@ -17,7 +17,7 @@ public class BaseTest {
 		DriverFactory.getDriver().get(ConfigReader.get("url"));
 	}
 
-	@AfterSuite
+	@AfterSuite 
 	public void tearDown() throws InterruptedException {
 		DriverFactory.quitDriver();
 	}
