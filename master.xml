@@ -4,5 +4,6 @@
 	</listeners>
 	<suite-file path="home.xml" />
 	<suite-file path="about.xml" />
+	<suite-file path= "shopnCart.xml"/>
 	<suite-file path="checkout.xml" />
 </suite>

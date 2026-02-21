@@ -7,12 +7,12 @@ import utils.WaitUtils;
 
 public class DriverFactory {
 	private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
-	
+	static WaitUtils wait;
 	public static void initDriver() {
 		WebDriver webDriver = new ChromeDriver();
 		webDriver.manage().window().maximize();
 		driver.set(webDriver);
-		WaitUtils.getWait(webDriver);
+		wait = new WaitUtils(webDriver);
 	}
 
 	public static WebDriver getDriver() {

@@ -1,11 +1,39 @@
 package utils;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 public class WaitUtils {
-    public static WebDriverWait getWait(WebDriver driver) {
-        return new WebDriverWait(driver, Duration.ofSeconds(10));
+
+    WebDriver driver;
+    WebDriverWait wait;
+
+    // Constructor
+    public WaitUtils(WebDriver driver) {
+        this.driver = driver;
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    }
+
+    // Wait for element to be clickable
+    public void waitForElementToBeClickable(WebElement element) {
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+    }
+
+    // Wait for element to be visible
+    public void waitForElementToBeVisible(WebElement element) {
+        wait.until(ExpectedConditions.visibilityOf(element));
+    }
+
+    // Wait for title
+    public void waitForTitleContains(String title) {
+        wait.until(ExpectedConditions.titleContains(title));
+    }
+
+    // Wait for URL
+    public void waitForUrlContains(String url) {
+        wait.until(ExpectedConditions.urlContains(url));
     }
 }
-

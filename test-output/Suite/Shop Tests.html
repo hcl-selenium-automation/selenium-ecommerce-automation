@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>TestNG:  Shop Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Shop Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Feb 21 16:50:11 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>21 seconds (21100 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='shoppage.verify_ShopPage.verify_Shoppage()'><b>verify_Shoppage</b><br>Test class: shoppage.verify_ShopPage</td>
+<td></td>
+<td>1</td>
+<td>shoppage.verify_ShopPage@2898ac89</td></tr>
+<tr>
+<td title='shoppage.verify_Category.verifyCategory()'><b>verifyCategory</b><br>Test class: shoppage.verify_Category</td>
+<td></td>
+<td>1</td>
+<td>shoppage.verify_Category@683dbc2c</td></tr>
+<tr>
+<td title='shoppage.verify_productDetails.verifyproductToCart()'><b>verifyproductToCart</b><br>Test class: shoppage.verify_productDetails</td>
+<td></td>
+<td>0</td>
+<td>shoppage.verify_productDetails@2f465398</td></tr>
+<tr>
+<td title='cart_page.verify_checkOut.verifycheckout()'><b>verifycheckout</b><br>Test class: cart_page.verify_checkOut</td>
+<td></td>
+<td>0</td>
+<td>cart_page.verify_checkOut@57250572</td></tr>
+<tr>
+<td title='cart_page.verify_removeProduct.removeproduct()'><b>removeproduct</b><br>Test class: cart_page.verify_removeProduct</td>
+<td></td>
+<td>0</td>
+<td>cart_page.verify_removeProduct@175b9425</td></tr>
+<tr>
+<td title='cart_page.verify_ContinueShopping.continueShop()'><b>continueShop</b><br>Test class: cart_page.verify_ContinueShopping</td>
+<td></td>
+<td>0</td>
+<td>cart_page.verify_ContinueShopping@6a03bcb1</td></tr>
+<tr>
+<td title='shoppage.verify_AscendingPrice.verify_lowtoHigh()'><b>verify_lowtoHigh</b><br>Test class: shoppage.verify_AscendingPrice</td>
+<td></td>
+<td>1</td>
+<td>shoppage.verify_AscendingPrice@68267da0</td></tr>
+<tr>
+<td title='shoppage.validate_product2.validateProduct()'><b>validateProduct</b><br>Test class: shoppage.validate_product2</td>
+<td></td>
+<td>1</td>
+<td>shoppage.validate_product2@21b2e768</td></tr>
+<tr>
+<td title='shoppage.verify_DescendingPrice.verify_HightoLow()'><b>verify_HightoLow</b><br>Test class: shoppage.verify_DescendingPrice</td>
+<td></td>
+<td>1</td>
+<td>shoppage.verify_DescendingPrice@2638011</td></tr>
+<tr>
+<td title='shoppage.verify_Newest.verifyTopRated()'><b>verifyTopRated</b><br>Test class: shoppage.verify_Newest</td>
+<td></td>
+<td>0</td>
+<td>shoppage.verify_Newest@6a2b953e</td></tr>
+<tr>
+<td title='shoppage.verify_product_ToCart.verifyproductToCart()'><b>verifyproductToCart</b><br>Test class: shoppage.verify_product_ToCart</td>
+<td></td>
+<td>0</td>
+<td>shoppage.verify_product_ToCart@548e6d58</td></tr>
+<tr>
+<td title='cart_page.verify_browseProduct.browseproduct()'><b>browseproduct</b><br>Test class: cart_page.verify_browseProduct</td>
+<td></td>
+<td>0</td>
+<td>cart_page.verify_browseProduct@3098cf3b</td></tr>
+<tr>
+<td title='cart_page.Verify_ProductDisplay.productDisplay()'><b>productDisplay</b><br>Test class: cart_page.Verify_ProductDisplay</td>
+<td></td>
+<td>0</td>
+<td>cart_page.Verify_ProductDisplay@a1cdc6d</td></tr>
+<tr>
+<td title='cart_page.OpenCart.open_cart()'><b>open_cart</b><br>Test class: cart_page.OpenCart</td>
+<td></td>
+<td>0</td>
+<td>cart_page.OpenCart@623a8092</td></tr>
+<tr>
+<td title='shoppage.validate_product1.validateProduct()'><b>validateProduct</b><br>Test class: shoppage.validate_product1</td>
+<td></td>
+<td>0</td>
+<td>shoppage.validate_product1@313b2ea6</td></tr>
+<tr>
+<td title='shoppage.verify_TopRated.verifyTopRated()'><b>verifyTopRated</b><br>Test class: shoppage.verify_TopRated</td>
+<td></td>
+<td>0</td>
+<td>shoppage.verify_TopRated@6ff29830</td></tr>
+<tr>
+<td title='shoppage.verify_directToCart.directCart()'><b>directCart</b><br>Test class: shoppage.verify_directToCart</td>
+<td></td>
+<td>1</td>
+<td>shoppage.verify_directToCart@610f7aa</td></tr>
+</table><p>
+</body>
+</html>
