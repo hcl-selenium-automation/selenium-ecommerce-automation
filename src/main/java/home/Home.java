@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import base.BasePage;
+<<<<<<< HEAD
 
 public class Home extends BasePage{
 
@@ -16,3 +17,20 @@ public class Home extends BasePage{
 		home.click();
 	}
 }
+=======
+import registration.Registration;
+
+public class Home extends BasePage {
+	public Home(WebDriver driver) {
+		super(driver);
+	}
+
+	@FindBy(xpath="//a[@aria-label='Create account']//*[name()='svg']")
+	WebElement RegisterPage;
+	
+	public Registration clickRegisterPage() {
+		RegisterPage.click();
+		return new Registration(driver);
+	}
+}
+>>>>>>> 2a746d6 (add login and registration)
