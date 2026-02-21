@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CheckOut Page TestCases">
+	<listeners>
+		<listener class-name="listeners.TestListener" />
+	</listeners>
+	<test name="Test">
+		<classes>
+		     <class name="checkout.ProceedToCheckOutTest" />
+		     <class name="checkout.ShowSelectedItemTest" />
+		     <class name="checkout.BillingInformationTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
+ 

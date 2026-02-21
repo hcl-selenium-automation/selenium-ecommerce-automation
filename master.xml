@@ -1,0 +1,8 @@
+<suite name="master page">
+	<listeners>
+	    <listener class-name="listeners.TestListener" />
+	</listeners>
+	<suite-file path="home.xml" />
+	<suite-file path="about.xml" />
+	<suite-file path="checkout.xml" />
+</suite>
