@@ -7,25 +7,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="checkout.ProceedToCheckOutTest">
+      <class name="registration.RegistrationTest">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="proceedToCheckOutTest"/>
-          <include name="initPages"/>
+          <include name="verify_Registration"/>
         </methods>
-      </class> <!-- checkout.ProceedToCheckOutTest -->
-      <class name="checkout.BillingInformationTest">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="placeOrderTest"/>
-          <include name="billingInformationTest"/>
-          <include name="shippingInformationTest"/>
-          <include name="initPages"/>
-          <include name="paymentDetailsTest"/>
-        </methods>
-      </class> <!-- checkout.BillingInformationTest -->
+      </class> <!-- registration.RegistrationTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [CheckOut Page TestCases] -->

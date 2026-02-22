@@ -11,24 +11,24 @@ public class Login extends BasePage {
 		super(driver);
 	}
 
+	@FindBy(xpath = "//a[@aria-label='Sign in']//*[name()='svg']")private WebElement signin_button;
 	@FindBy(xpath="//label[contains(text(),'Email')]/following::input[1]")
 	WebElement email;
-	
-	public void enterEmail(String e) {
-		email.sendKeys(e);
-	}
-	
 	@FindBy(xpath="//label[contains(text(),'Password')]/following::input[@type='password'][1]")
 	WebElement password;
-	
-	public void enterPassword(String p) {
+	@FindBy(xpath = "//button[normalize-space()='Login']")private WebElement login_btn;
+	public boolean clickSignInIcon() {
+		if(signin_button.isDisplayed()) {
+			signin_button.click();
+			return true;
+		}
+		return false;		
+	}
+	public void loginUser(String e,String p) {
+		email.clear();
+		password.clear();
+		email.sendKeys(e);
 		password.sendKeys(p);
-	}
-	
-	@FindBy(xpath="//button[normalize-space()='Login']")
-	WebElement loginBtn;
-	
-	public void clickLoginBtn() {
-		loginBtn.click();
-	}
+		login_btn.submit();
+	}	
 }
