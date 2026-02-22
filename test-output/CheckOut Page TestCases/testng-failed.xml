@@ -20,8 +20,8 @@
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="placeOrderTest"/>
-          <include name="shippingInformationTest"/>
           <include name="billingInformationTest"/>
+          <include name="shippingInformationTest"/>
           <include name="initPages"/>
           <include name="paymentDetailsTest"/>
         </methods>

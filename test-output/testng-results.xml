@@ -2,240 +2,240 @@
 <testng-results ignored="0" total="35" passed="30" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-21T16:50:11 IST" name="Suite" finished-at="2026-02-21T16:50:33 IST" duration-ms="21100">
+  <suite started-at="2026-02-22T07:23:11 IST" name="Suite" finished-at="2026-02-22T07:23:36 IST" duration-ms="25835">
     <groups>
     </groups>
-    <test started-at="2026-02-21T16:50:11 IST" name="Shop Tests" finished-at="2026-02-21T16:50:33 IST" duration-ms="21100">
+    <test started-at="2026-02-22T07:23:11 IST" name="Shop Tests" finished-at="2026-02-22T07:23:36 IST" duration-ms="25835">
       <class name="shoppage.verify_product_ToCart">
-        <test-method signature="verifyproductToCart()[pri:0, instance:shoppage.verify_product_ToCart@548e6d58]" started-at="2026-02-21T16:50:23 IST" name="verifyproductToCart" finished-at="2026-02-21T16:50:24 IST" duration-ms="304" status="PASS">
+        <test-method signature="verifyproductToCart()[pri:0, instance:shoppage.verify_product_ToCart@7b02881e]" started-at="2026-02-22T07:23:26 IST" name="verifyproductToCart" finished-at="2026-02-22T07:23:26 IST" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyproductToCart -->
       </class> <!-- shoppage.verify_product_ToCart -->
       <class name="shoppage.verify_Category">
-        <test-method signature="verifyCategory()[pri:0, instance:shoppage.verify_Category@683dbc2c]" started-at="2026-02-21T16:50:13 IST" name="verifyCategory" finished-at="2026-02-21T16:50:15 IST" duration-ms="1415" status="PASS">
+        <test-method signature="verifyCategory()[pri:0, instance:shoppage.verify_Category@762ef0ea]" started-at="2026-02-22T07:23:13 IST" name="verifyCategory" finished-at="2026-02-22T07:23:14 IST" duration-ms="1040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCategory -->
       </class> <!-- shoppage.verify_Category -->
       <class name="shoppage.verify_DescendingPrice">
-        <test-method signature="verify_HightoLow()[pri:0, instance:shoppage.verify_DescendingPrice@2638011]" started-at="2026-02-21T16:50:17 IST" name="verify_HightoLow" finished-at="2026-02-21T16:50:18 IST" duration-ms="1198" status="PASS">
+        <test-method signature="verify_HightoLow()[pri:0, instance:shoppage.verify_DescendingPrice@424e1977]" started-at="2026-02-22T07:23:16 IST" name="verify_HightoLow" finished-at="2026-02-22T07:23:18 IST" duration-ms="1424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_HightoLow -->
       </class> <!-- shoppage.verify_DescendingPrice -->
       <class name="cart_page.verify_checkOut">
-        <test-method signature="verifycheckout()[pri:0, instance:cart_page.verify_checkOut@57250572]" started-at="2026-02-21T16:50:32 IST" name="verifycheckout" finished-at="2026-02-21T16:50:32 IST" duration-ms="316" status="PASS">
+        <test-method signature="verifycheckout()[pri:0, instance:cart_page.verify_checkOut@683dbc2c]" started-at="2026-02-22T07:23:36 IST" name="verifycheckout" finished-at="2026-02-22T07:23:36 IST" duration-ms="436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifycheckout -->
       </class> <!-- cart_page.verify_checkOut -->
       <class name="shoppage.verify_ShopPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:shoppage.verify_ShopPage@2898ac89]" started-at="2026-02-21T16:50:08 IST" name="setup" finished-at="2026-02-21T16:50:11 IST" duration-ms="3470" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:shoppage.verify_ShopPage@2d2ffcb7]" started-at="2026-02-22T07:23:03 IST" name="setup" finished-at="2026-02-22T07:23:11 IST" duration-ms="7376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_Shoppage()[pri:0, instance:shoppage.verify_ShopPage@2898ac89]" started-at="2026-02-21T16:50:12 IST" name="verify_Shoppage" finished-at="2026-02-21T16:50:13 IST" duration-ms="1192" status="PASS">
+        <test-method signature="verify_Shoppage()[pri:0, instance:shoppage.verify_ShopPage@2d2ffcb7]" started-at="2026-02-22T07:23:11 IST" name="verify_Shoppage" finished-at="2026-02-22T07:23:13 IST" duration-ms="2177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Shoppage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:shoppage.verify_ShopPage@2898ac89]" started-at="2026-02-21T16:50:33 IST" name="tearDown" finished-at="2026-02-21T16:50:33 IST" duration-ms="472" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shoppage.verify_ShopPage@2d2ffcb7]" started-at="2026-02-22T07:23:37 IST" name="tearDown" finished-at="2026-02-22T07:23:37 IST" duration-ms="543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- shoppage.verify_ShopPage -->
       <class name="cart_page.verify_ContinueShopping">
-        <test-method signature="continueShop()[pri:0, instance:cart_page.verify_ContinueShopping@6a03bcb1]" started-at="2026-02-21T16:50:29 IST" name="continueShop" finished-at="2026-02-21T16:50:29 IST" duration-ms="469" status="PASS">
+        <test-method signature="continueShop()[pri:0, instance:cart_page.verify_ContinueShopping@6e509ffa]" started-at="2026-02-22T07:23:33 IST" name="continueShop" finished-at="2026-02-22T07:23:34 IST" duration-ms="556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- continueShop -->
       </class> <!-- cart_page.verify_ContinueShopping -->
       <class name="cart_page.Verify_ProductDisplay">
-        <test-method signature="productDisplay()[pri:0, instance:cart_page.Verify_ProductDisplay@a1cdc6d]" started-at="2026-02-21T16:50:25 IST" name="productDisplay" finished-at="2026-02-21T16:50:25 IST" duration-ms="351" status="PASS">
+        <test-method signature="productDisplay()[pri:0, instance:cart_page.Verify_ProductDisplay@3c0be339]" started-at="2026-02-22T07:23:27 IST" name="productDisplay" finished-at="2026-02-22T07:23:28 IST" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productDisplay -->
       </class> <!-- cart_page.Verify_ProductDisplay -->
       <class name="shoppage.validate_product1">
-        <test-method signature="validateProduct()[pri:0, instance:shoppage.validate_product1@313b2ea6]" started-at="2026-02-21T16:50:22 IST" name="validateProduct" finished-at="2026-02-21T16:50:22 IST" duration-ms="472" status="PASS">
+        <test-method signature="validateProduct()[pri:0, instance:shoppage.validate_product1@6db9f5a4]" started-at="2026-02-22T07:23:24 IST" name="validateProduct" finished-at="2026-02-22T07:23:25 IST" duration-ms="684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateProduct -->
       </class> <!-- shoppage.validate_product1 -->
       <class name="shoppage.validate_product2">
-        <test-method signature="validateProduct()[pri:0, instance:shoppage.validate_product2@21b2e768]" started-at="2026-02-21T16:50:30 IST" name="validateProduct" finished-at="2026-02-21T16:50:32 IST" duration-ms="1625" status="PASS">
+        <test-method signature="validateProduct()[pri:0, instance:shoppage.validate_product2@2898ac89]" started-at="2026-02-22T07:23:34 IST" name="validateProduct" finished-at="2026-02-22T07:23:35 IST" duration-ms="1439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateProduct -->
       </class> <!-- shoppage.validate_product2 -->
       <class name="shoppage.verify_productDetails">
-        <test-method signature="verifyproductToCart()[pri:0, instance:shoppage.verify_productDetails@2f465398]" started-at="2026-02-21T16:50:22 IST" name="verifyproductToCart" finished-at="2026-02-21T16:50:23 IST" duration-ms="491" status="PASS">
+        <test-method signature="verifyproductToCart()[pri:0, instance:shoppage.verify_productDetails@5f8edcc5]" started-at="2026-02-22T07:23:25 IST" name="verifyproductToCart" finished-at="2026-02-22T07:23:26 IST" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyproductToCart -->
       </class> <!-- shoppage.verify_productDetails -->
       <class name="shoppage.verify_TopRated">
-        <test-method signature="verifyTopRated()[pri:0, instance:shoppage.verify_TopRated@6ff29830]" started-at="2026-02-21T16:50:19 IST" name="verifyTopRated" finished-at="2026-02-21T16:50:20 IST" duration-ms="880" status="PASS">
+        <test-method signature="verifyTopRated()[pri:0, instance:shoppage.verify_TopRated@10d68fcd]" started-at="2026-02-22T07:23:18 IST" name="verifyTopRated" finished-at="2026-02-22T07:23:22 IST" duration-ms="3174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTopRated -->
       </class> <!-- shoppage.verify_TopRated -->
       <class name="cart_page.OpenCart">
-        <test-method signature="open_cart()[pri:0, instance:cart_page.OpenCart@623a8092]" started-at="2026-02-21T16:50:24 IST" name="open_cart" finished-at="2026-02-21T16:50:25 IST" duration-ms="401" status="PASS">
+        <test-method signature="open_cart()[pri:0, instance:cart_page.OpenCart@1ebd319f]" started-at="2026-02-22T07:23:27 IST" name="open_cart" finished-at="2026-02-22T07:23:27 IST" duration-ms="362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_cart -->
       </class> <!-- cart_page.OpenCart -->
       <class name="shoppage.verify_Newest">
-        <test-method signature="verifyTopRated()[pri:0, instance:shoppage.verify_Newest@6a2b953e]" started-at="2026-02-21T16:50:20 IST" name="verifyTopRated" finished-at="2026-02-21T16:50:21 IST" duration-ms="842" status="PASS">
+        <test-method signature="verifyTopRated()[pri:0, instance:shoppage.verify_Newest@117e949d]" started-at="2026-02-22T07:23:22 IST" name="verifyTopRated" finished-at="2026-02-22T07:23:24 IST" duration-ms="1282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTopRated -->
       </class> <!-- shoppage.verify_Newest -->
       <class name="shoppage.verify_AscendingPrice">
-        <test-method signature="verify_lowtoHigh()[pri:0, instance:shoppage.verify_AscendingPrice@68267da0]" started-at="2026-02-21T16:50:15 IST" name="verify_lowtoHigh" finished-at="2026-02-21T16:50:17 IST" duration-ms="1357" status="PASS">
+        <test-method signature="verify_lowtoHigh()[pri:0, instance:shoppage.verify_AscendingPrice@31f9b85e]" started-at="2026-02-22T07:23:15 IST" name="verify_lowtoHigh" finished-at="2026-02-22T07:23:16 IST" duration-ms="1194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_lowtoHigh -->
       </class> <!-- shoppage.verify_AscendingPrice -->
       <class name="cart_page.verify_browseProduct">
-        <test-method signature="browseproduct()[pri:0, instance:cart_page.verify_browseProduct@3098cf3b]" started-at="2026-02-21T16:50:26 IST" name="browseproduct" finished-at="2026-02-21T16:50:27 IST" duration-ms="808" status="PASS">
+        <test-method signature="browseproduct()[pri:0, instance:cart_page.verify_browseProduct@7a675056]" started-at="2026-02-22T07:23:30 IST" name="browseproduct" finished-at="2026-02-22T07:23:31 IST" duration-ms="1134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browseproduct -->
       </class> <!-- cart_page.verify_browseProduct -->
       <class name="cart_page.verify_removeProduct">
-        <test-method signature="removeproduct()[pri:0, instance:cart_page.verify_removeProduct@175b9425]" started-at="2026-02-21T16:50:26 IST" name="removeproduct" finished-at="2026-02-21T16:50:26 IST" duration-ms="241" status="PASS">
+        <test-method signature="removeproduct()[pri:0, instance:cart_page.verify_removeProduct@15ca7889]" started-at="2026-02-22T07:23:28 IST" name="removeproduct" finished-at="2026-02-22T07:23:28 IST" duration-ms="435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeproduct -->
       </class> <!-- cart_page.verify_removeProduct -->
       <class name="shoppage.verify_directToCart">
-        <test-method signature="directCart()[pri:0, instance:shoppage.verify_directToCart@610f7aa]" started-at="2026-02-21T16:50:28 IST" name="directCart" finished-at="2026-02-21T16:50:29 IST" duration-ms="1039" status="PASS">
+        <test-method signature="directCart()[pri:0, instance:shoppage.verify_directToCart@d21a74c]" started-at="2026-02-22T07:23:31 IST" name="directCart" finished-at="2026-02-22T07:23:33 IST" duration-ms="1326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- directCart -->
       </class> <!-- shoppage.verify_directToCart -->
     </test> <!-- Shop Tests -->
   </suite> <!-- Suite -->
-  <suite started-at="2026-02-21T16:50:44 IST" name="master page" finished-at="2026-02-21T16:50:44 IST" duration-ms="0">
+  <suite started-at="2026-02-22T07:23:48 IST" name="master page" finished-at="2026-02-22T07:23:48 IST" duration-ms="0">
     <groups>
     </groups>
   </suite> <!-- master page -->
-  <suite started-at="2026-02-21T16:49:49 IST" name="Home Page TestCases" finished-at="2026-02-21T16:50:00 IST" duration-ms="10989">
+  <suite started-at="2026-02-22T07:22:42 IST" name="Home Page TestCases" finished-at="2026-02-22T07:22:50 IST" duration-ms="8141">
     <groups>
     </groups>
-    <test started-at="2026-02-21T16:49:49 IST" name="Test" finished-at="2026-02-21T16:50:00 IST" duration-ms="10989">
+    <test started-at="2026-02-22T07:22:42 IST" name="Test" finished-at="2026-02-22T07:22:50 IST" duration-ms="8141">
       <class name="home.HomeTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:home.HomeTest@24aed80c]" started-at="2026-02-21T16:49:42 IST" name="setup" finished-at="2026-02-21T16:49:49 IST" duration-ms="6893" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:home.HomeTest@302552ec]" started-at="2026-02-22T07:22:36 IST" name="setup" finished-at="2026-02-22T07:22:42 IST" duration-ms="6320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:home.HomeTest@24aed80c]" started-at="2026-02-21T16:49:50 IST" name="initPages" finished-at="2026-02-21T16:49:50 IST" duration-ms="59" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:home.HomeTest@302552ec]" started-at="2026-02-22T07:22:43 IST" name="initPages" finished-at="2026-02-22T07:22:43 IST" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="testAbout()[pri:0, instance:home.HomeTest@24aed80c]" started-at="2026-02-21T16:49:50 IST" name="testAbout" description="about page test section here" finished-at="2026-02-21T16:49:51 IST" duration-ms="680" status="PASS">
+        <test-method signature="testAbout()[pri:0, instance:home.HomeTest@302552ec]" started-at="2026-02-22T07:22:43 IST" name="testAbout" description="about page test section here" finished-at="2026-02-22T07:22:43 IST" duration-ms="292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAbout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:home.HomeTest@24aed80c]" started-at="2026-02-21T16:50:02 IST" name="tearDown" finished-at="2026-02-21T16:50:02 IST" duration-ms="571" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:home.HomeTest@302552ec]" started-at="2026-02-22T07:22:51 IST" name="tearDown" finished-at="2026-02-22T07:22:51 IST" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- home.HomeTest -->
       <class name="home.LogoTest">
-        <test-method is-config="true" signature="initPages()[pri:0, instance:home.LogoTest@45c7e403]" started-at="2026-02-21T16:49:52 IST" name="initPages" finished-at="2026-02-21T16:49:52 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testAbout()[pri:0, instance:home.LogoTest@45c7e403]" started-at="2026-02-21T16:49:52 IST" name="testAbout" description="home page test section here" finished-at="2026-02-21T16:49:52 IST" duration-ms="79" status="PASS">
+        <test-method signature="testAbout()[pri:0, instance:home.LogoTest@ba2f4ec]" started-at="2026-02-22T07:22:44 IST" name="testAbout" description="home page test section here" finished-at="2026-02-22T07:22:44 IST" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAbout -->
-      </class> <!-- home.LogoTest -->
-      <class name="home.NavigationTest">
-        <test-method is-config="true" signature="initPages()[pri:0, instance:home.NavigationTest@8297b3a]" started-at="2026-02-21T16:49:53 IST" name="initPages" finished-at="2026-02-21T16:49:53 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:home.LogoTest@ba2f4ec]" started-at="2026-02-22T07:22:44 IST" name="initPages" finished-at="2026-02-22T07:22:44 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="clickAboutTest()[pri:1, instance:home.NavigationTest@8297b3a]" started-at="2026-02-21T16:49:53 IST" name="clickAboutTest" finished-at="2026-02-21T16:49:53 IST" duration-ms="385" status="PASS">
+      </class> <!-- home.LogoTest -->
+      <class name="home.NavigationTest">
+        <test-method signature="clickAboutTest()[pri:1, instance:home.NavigationTest@24aed80c]" started-at="2026-02-22T07:22:45 IST" name="clickAboutTest" finished-at="2026-02-22T07:22:45 IST" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickAboutTest -->
-        <test-method signature="clickCartItemIconTest()[pri:2, instance:home.NavigationTest@8297b3a]" started-at="2026-02-21T16:49:54 IST" name="clickCartItemIconTest" finished-at="2026-02-21T16:49:54 IST" duration-ms="402" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:home.NavigationTest@24aed80c]" started-at="2026-02-22T07:22:45 IST" name="initPages" finished-at="2026-02-22T07:22:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="clickCartItemIconTest()[pri:2, instance:home.NavigationTest@24aed80c]" started-at="2026-02-22T07:22:45 IST" name="clickCartItemIconTest" finished-at="2026-02-22T07:22:46 IST" duration-ms="289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickCartItemIconTest -->
-        <test-method signature="clickCreateAccountIconTest()[pri:3, instance:home.NavigationTest@8297b3a]" started-at="2026-02-21T16:49:54 IST" name="clickCreateAccountIconTest" finished-at="2026-02-21T16:49:55 IST" duration-ms="256" status="PASS">
+        <test-method signature="clickCreateAccountIconTest()[pri:3, instance:home.NavigationTest@24aed80c]" started-at="2026-02-22T07:22:46 IST" name="clickCreateAccountIconTest" finished-at="2026-02-22T07:22:46 IST" duration-ms="326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickCreateAccountIconTest -->
-        <test-method signature="clickHomeIconTest()[pri:4, instance:home.NavigationTest@8297b3a]" started-at="2026-02-21T16:49:55 IST" name="clickHomeIconTest" finished-at="2026-02-21T16:49:56 IST" duration-ms="562" status="PASS">
+        <test-method signature="clickHomeIconTest()[pri:4, instance:home.NavigationTest@24aed80c]" started-at="2026-02-22T07:22:46 IST" name="clickHomeIconTest" finished-at="2026-02-22T07:22:47 IST" duration-ms="486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickHomeIconTest -->
-        <test-method signature="clickLogoTest()[pri:5, instance:home.NavigationTest@8297b3a]" started-at="2026-02-21T16:49:56 IST" name="clickLogoTest" finished-at="2026-02-21T16:49:57 IST" duration-ms="456" status="PASS">
+        <test-method signature="clickLogoTest()[pri:5, instance:home.NavigationTest@24aed80c]" started-at="2026-02-22T07:22:47 IST" name="clickLogoTest" finished-at="2026-02-22T07:22:48 IST" duration-ms="224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickLogoTest -->
-        <test-method signature="clickShopIconTest()[pri:6, instance:home.NavigationTest@8297b3a]" started-at="2026-02-21T16:49:58 IST" name="clickShopIconTest" finished-at="2026-02-21T16:49:58 IST" duration-ms="467" status="PASS">
+        <test-method signature="clickShopIconTest()[pri:6, instance:home.NavigationTest@24aed80c]" started-at="2026-02-22T07:22:48 IST" name="clickShopIconTest" finished-at="2026-02-22T07:22:49 IST" duration-ms="345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickShopIconTest -->
-        <test-method signature="clickSignInIconTest()[pri:7, instance:home.NavigationTest@8297b3a]" started-at="2026-02-21T16:49:59 IST" name="clickSignInIconTest" finished-at="2026-02-21T16:49:59 IST" duration-ms="442" status="PASS">
+        <test-method signature="clickSignInIconTest()[pri:7, instance:home.NavigationTest@24aed80c]" started-at="2026-02-22T07:22:49 IST" name="clickSignInIconTest" finished-at="2026-02-22T07:22:50 IST" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSignInIconTest -->
-        <test-method signature="clickSupportIconTest()[pri:8, instance:home.NavigationTest@8297b3a]" started-at="2026-02-21T16:50:00 IST" name="clickSupportIconTest" finished-at="2026-02-21T16:50:00 IST" duration-ms="455" status="PASS">
+        <test-method signature="clickSupportIconTest()[pri:8, instance:home.NavigationTest@24aed80c]" started-at="2026-02-22T07:22:50 IST" name="clickSupportIconTest" finished-at="2026-02-22T07:22:50 IST" duration-ms="346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSupportIconTest -->
       </class> <!-- home.NavigationTest -->
     </test> <!-- Test -->
   </suite> <!-- Home Page TestCases -->
-  <suite started-at="2026-02-21T16:50:37 IST" name="CheckOut Page TestCases" finished-at="2026-02-21T16:50:42 IST" duration-ms="4863">
+  <suite started-at="2026-02-22T07:23:42 IST" name="CheckOut Page TestCases" finished-at="2026-02-22T07:23:47 IST" duration-ms="4904">
     <groups>
     </groups>
-    <test started-at="2026-02-21T16:50:37 IST" name="Test" finished-at="2026-02-21T16:50:42 IST" duration-ms="4863">
+    <test started-at="2026-02-22T07:23:42 IST" name="Test" finished-at="2026-02-22T07:23:47 IST" duration-ms="4904">
       <class name="checkout.ShowSelectedItemTest">
-        <test-method signature="verifyCheckoutPageLoadTest()[pri:0, instance:checkout.ShowSelectedItemTest@fd07cbb]" started-at="2026-02-21T16:50:39 IST" name="verifyCheckoutPageLoadTest" description="checkout page test section here" finished-at="2026-02-21T16:50:39 IST" duration-ms="426" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:checkout.ShowSelectedItemTest@57250572]" started-at="2026-02-22T07:23:44 IST" name="initPages" finished-at="2026-02-22T07:23:44 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="verifyCheckoutPageLoadTest()[pri:0, instance:checkout.ShowSelectedItemTest@57250572]" started-at="2026-02-22T07:23:44 IST" name="verifyCheckoutPageLoadTest" description="checkout page test section here" finished-at="2026-02-22T07:23:45 IST" duration-ms="655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckoutPageLoadTest -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:checkout.ShowSelectedItemTest@fd07cbb]" started-at="2026-02-21T16:50:39 IST" name="initPages" finished-at="2026-02-21T16:50:39 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPages -->
       </class> <!-- checkout.ShowSelectedItemTest -->
       <class name="checkout.BillingInformationTest">
-        <test-method is-config="true" signature="initPages()[pri:0, instance:checkout.BillingInformationTest@3571b748]" started-at="2026-02-21T16:50:40 IST" name="initPages" finished-at="2026-02-21T16:50:40 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:checkout.BillingInformationTest@5609159b]" started-at="2026-02-22T07:23:45 IST" name="initPages" finished-at="2026-02-22T07:23:45 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="billingInformationTest()[pri:0, instance:checkout.BillingInformationTest@3571b748]" started-at="2026-02-21T16:50:40 IST" name="billingInformationTest" description="checkout page test section here" finished-at="2026-02-21T16:50:40 IST" duration-ms="67" status="FAIL">
+        <test-method signature="billingInformationTest()[pri:0, instance:checkout.BillingInformationTest@5609159b]" started-at="2026-02-22T07:23:45 IST" name="billingInformationTest" description="checkout page test section here" finished-at="2026-02-22T07:23:45 IST" duration-ms="104" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
-  (Session info: chrome=145.0.7632.77)
+  (Session info: chrome=145.0.7632.76)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8f1922b26ddd221d4c75b91bd2c61ff6, findElement {using=id, value=name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\panka\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63413}, goog:processID: 22960, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63413/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8f1922b26ddd221d4c75b91bd2c61ff6]]>
+Command: [b167ede675c3fd90a71baff6a17ad653, findElement {value=name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\LAPTOP\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64081}, goog:processID: 22092, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64081/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b167ede675c3fd90a71baff6a17ad653]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
-  (Session info: chrome=145.0.7632.77)
+  (Session info: chrome=145.0.7632.76)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8f1922b26ddd221d4c75b91bd2c61ff6, findElement {using=id, value=name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\panka\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63413}, goog:processID: 22960, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63413/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8f1922b26ddd221d4c75b91bd2c61ff6
+Command: [b167ede675c3fd90a71baff6a17ad653, findElement {value=name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\LAPTOP\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64081}, goog:processID: 22092, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64081/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b167ede675c3fd90a71baff6a17ad653
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -288,29 +288,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- billingInformationTest -->
-        <test-method signature="paymentDetailsTest()[pri:0, instance:checkout.BillingInformationTest@3571b748]" started-at="2026-02-21T16:50:41 IST" name="paymentDetailsTest" description="checkout page test section here" finished-at="2026-02-21T16:50:41 IST" duration-ms="28" status="FAIL">
+        <test-method signature="paymentDetailsTest()[pri:0, instance:checkout.BillingInformationTest@5609159b]" started-at="2026-02-22T07:23:46 IST" name="paymentDetailsTest" description="checkout page test section here" finished-at="2026-02-22T07:23:46 IST" duration-ms="17" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#cardNumber"}
-  (Session info: chrome=145.0.7632.77)
+  (Session info: chrome=145.0.7632.76)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8f1922b26ddd221d4c75b91bd2c61ff6, findElement {using=id, value=cardNumber}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\panka\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63413}, goog:processID: 22960, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63413/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8f1922b26ddd221d4c75b91bd2c61ff6]]>
+Command: [b167ede675c3fd90a71baff6a17ad653, findElement {value=cardNumber, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\LAPTOP\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64081}, goog:processID: 22092, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64081/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b167ede675c3fd90a71baff6a17ad653]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#cardNumber"}
-  (Session info: chrome=145.0.7632.77)
+  (Session info: chrome=145.0.7632.76)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8f1922b26ddd221d4c75b91bd2c61ff6, findElement {using=id, value=cardNumber}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\panka\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63413}, goog:processID: 22960, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63413/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8f1922b26ddd221d4c75b91bd2c61ff6
+Command: [b167ede675c3fd90a71baff6a17ad653, findElement {value=cardNumber, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\LAPTOP\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64081}, goog:processID: 22092, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64081/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b167ede675c3fd90a71baff6a17ad653
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -363,29 +363,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- paymentDetailsTest -->
-        <test-method signature="placeOrderTest()[pri:0, instance:checkout.BillingInformationTest@3571b748]" started-at="2026-02-21T16:50:41 IST" name="placeOrderTest" description="checkout page test section here" finished-at="2026-02-21T16:50:41 IST" duration-ms="35" status="FAIL">
+        <test-method signature="placeOrderTest()[pri:0, instance:checkout.BillingInformationTest@5609159b]" started-at="2026-02-22T07:23:46 IST" name="placeOrderTest" description="checkout page test section here" finished-at="2026-02-22T07:23:46 IST" duration-ms="16" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Place Order']"}
-  (Session info: chrome=145.0.7632.77)
+  (Session info: chrome=145.0.7632.76)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8f1922b26ddd221d4c75b91bd2c61ff6, findElement {using=xpath, value=//button[normalize-space()='Place Order']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\panka\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63413}, goog:processID: 22960, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63413/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8f1922b26ddd221d4c75b91bd2c61ff6]]>
+Command: [b167ede675c3fd90a71baff6a17ad653, findElement {value=//button[normalize-space()='Place Order'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\LAPTOP\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64081}, goog:processID: 22092, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64081/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b167ede675c3fd90a71baff6a17ad653]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Place Order']"}
-  (Session info: chrome=145.0.7632.77)
+  (Session info: chrome=145.0.7632.76)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8f1922b26ddd221d4c75b91bd2c61ff6, findElement {using=xpath, value=//button[normalize-space()='Place Order']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\panka\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63413}, goog:processID: 22960, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63413/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8f1922b26ddd221d4c75b91bd2c61ff6
+Command: [b167ede675c3fd90a71baff6a17ad653, findElement {value=//button[normalize-space()='Place Order'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\LAPTOP\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64081}, goog:processID: 22092, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64081/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b167ede675c3fd90a71baff6a17ad653
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -438,29 +438,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- placeOrderTest -->
-        <test-method signature="shippingInformationTest()[pri:0, instance:checkout.BillingInformationTest@3571b748]" started-at="2026-02-21T16:50:42 IST" name="shippingInformationTest" description="checkout page test section here" finished-at="2026-02-21T16:50:42 IST" duration-ms="40" status="FAIL">
+        <test-method signature="shippingInformationTest()[pri:0, instance:checkout.BillingInformationTest@5609159b]" started-at="2026-02-22T07:23:46 IST" name="shippingInformationTest" description="checkout page test section here" finished-at="2026-02-22T07:23:46 IST" duration-ms="16" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#shippingAddress"}
-  (Session info: chrome=145.0.7632.77)
+  (Session info: chrome=145.0.7632.76)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8f1922b26ddd221d4c75b91bd2c61ff6, findElement {using=id, value=shippingAddress}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\panka\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63413}, goog:processID: 22960, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63413/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8f1922b26ddd221d4c75b91bd2c61ff6]]>
+Command: [b167ede675c3fd90a71baff6a17ad653, findElement {value=shippingAddress, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\LAPTOP\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64081}, goog:processID: 22092, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64081/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b167ede675c3fd90a71baff6a17ad653]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#shippingAddress"}
-  (Session info: chrome=145.0.7632.77)
+  (Session info: chrome=145.0.7632.76)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8f1922b26ddd221d4c75b91bd2c61ff6, findElement {using=id, value=shippingAddress}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\panka\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63413}, goog:processID: 22960, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63413/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8f1922b26ddd221d4c75b91bd2c61ff6
+Command: [b167ede675c3fd90a71baff6a17ad653, findElement {value=shippingAddress, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\LAPTOP\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64081}, goog:processID: 22092, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64081/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b167ede675c3fd90a71baff6a17ad653
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -515,41 +515,41 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- shippingInformationTest -->
       </class> <!-- checkout.BillingInformationTest -->
       <class name="checkout.ProceedToCheckOutTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:checkout.ProceedToCheckOutTest@2b4bac49]" started-at="2026-02-21T16:50:33 IST" name="setup" finished-at="2026-02-21T16:50:37 IST" duration-ms="4285" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:checkout.ProceedToCheckOutTest@21b2e768]" started-at="2026-02-22T07:23:37 IST" name="setup" finished-at="2026-02-22T07:23:42 IST" duration-ms="4519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:checkout.ProceedToCheckOutTest@2b4bac49]" started-at="2026-02-21T16:50:37 IST" name="initPages" finished-at="2026-02-21T16:50:37 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:checkout.ProceedToCheckOutTest@21b2e768]" started-at="2026-02-22T07:23:42 IST" name="initPages" finished-at="2026-02-22T07:23:42 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="clickCartIconTest()[pri:1, instance:checkout.ProceedToCheckOutTest@2b4bac49]" started-at="2026-02-21T16:50:37 IST" name="clickCartIconTest" description="checkout page test section here" finished-at="2026-02-21T16:50:38 IST" duration-ms="648" status="PASS">
+        <test-method signature="clickCartIconTest()[pri:1, instance:checkout.ProceedToCheckOutTest@21b2e768]" started-at="2026-02-22T07:23:42 IST" name="clickCartIconTest" description="checkout page test section here" finished-at="2026-02-22T07:23:43 IST" duration-ms="1682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickCartIconTest -->
-        <test-method signature="proceedToCheckOutTest()[pri:2, instance:checkout.ProceedToCheckOutTest@2b4bac49]" started-at="2026-02-21T16:50:39 IST" name="proceedToCheckOutTest" description="checkout page test section here" finished-at="2026-02-21T16:50:39 IST" duration-ms="28" status="FAIL">
+        <test-method signature="proceedToCheckOutTest()[pri:2, instance:checkout.ProceedToCheckOutTest@21b2e768]" started-at="2026-02-22T07:23:44 IST" name="proceedToCheckOutTest" description="checkout page test section here" finished-at="2026-02-22T07:23:44 IST" duration-ms="53" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Proceed to Checkout']"}
-  (Session info: chrome=145.0.7632.77)
+  (Session info: chrome=145.0.7632.76)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8f1922b26ddd221d4c75b91bd2c61ff6, findElement {using=xpath, value=//button[normalize-space()='Proceed to Checkout']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\panka\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63413}, goog:processID: 22960, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63413/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8f1922b26ddd221d4c75b91bd2c61ff6]]>
+Command: [b167ede675c3fd90a71baff6a17ad653, findElement {value=//button[normalize-space()='Proceed to Checkout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\LAPTOP\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64081}, goog:processID: 22092, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64081/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b167ede675c3fd90a71baff6a17ad653]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Proceed to Checkout']"}
-  (Session info: chrome=145.0.7632.77)
+  (Session info: chrome=145.0.7632.76)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8f1922b26ddd221d4c75b91bd2c61ff6, findElement {using=xpath, value=//button[normalize-space()='Proceed to Checkout']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\panka\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63413}, goog:processID: 22960, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63413/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8f1922b26ddd221d4c75b91bd2c61ff6
+Command: [b167ede675c3fd90a71baff6a17ad653, findElement {value=//button[normalize-space()='Proceed to Checkout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\LAPTOP\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64081}, goog:processID: 22092, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64081/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b167ede675c3fd90a71baff6a17ad653
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -602,31 +602,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- proceedToCheckOutTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:checkout.ProceedToCheckOutTest@2b4bac49]" started-at="2026-02-21T16:50:43 IST" name="tearDown" finished-at="2026-02-21T16:50:43 IST" duration-ms="471" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:checkout.ProceedToCheckOutTest@21b2e768]" started-at="2026-02-22T07:23:47 IST" name="tearDown" finished-at="2026-02-22T07:23:47 IST" duration-ms="491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- checkout.ProceedToCheckOutTest -->
     </test> <!-- Test -->
   </suite> <!-- CheckOut Page TestCases -->
-  <suite started-at="2026-02-21T16:50:06 IST" name="About Page TestCases" finished-at="2026-02-21T16:50:08 IST" duration-ms="1253">
+  <suite started-at="2026-02-22T07:23:02 IST" name="About Page TestCases" finished-at="2026-02-22T07:23:03 IST" duration-ms="843">
     <groups>
     </groups>
-    <test started-at="2026-02-21T16:50:06 IST" name="Test" finished-at="2026-02-21T16:50:08 IST" duration-ms="1253">
+    <test started-at="2026-02-22T07:23:02 IST" name="Test" finished-at="2026-02-22T07:23:03 IST" duration-ms="843">
       <class name="about.ViewAboutTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:about.ViewAboutTest@10aa41f2]" started-at="2026-02-21T16:50:02 IST" name="setup" finished-at="2026-02-21T16:50:06 IST" duration-ms="3879" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:about.ViewAboutTest@1e178745]" started-at="2026-02-22T07:22:51 IST" name="setup" finished-at="2026-02-22T07:23:02 IST" duration-ms="10388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:about.ViewAboutTest@10aa41f2]" started-at="2026-02-21T16:50:06 IST" name="initPages" finished-at="2026-02-21T16:50:06 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:about.ViewAboutTest@1e178745]" started-at="2026-02-22T07:23:02 IST" name="initPages" finished-at="2026-02-22T07:23:02 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="testAbout()[pri:0, instance:about.ViewAboutTest@10aa41f2]" started-at="2026-02-21T16:50:06 IST" name="testAbout" description="about page test section here" finished-at="2026-02-21T16:50:07 IST" duration-ms="524" status="PASS">
+        <test-method signature="testAbout()[pri:0, instance:about.ViewAboutTest@1e178745]" started-at="2026-02-22T07:23:02 IST" name="testAbout" description="about page test section here" finished-at="2026-02-22T07:23:02 IST" duration-ms="417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAbout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:about.ViewAboutTest@10aa41f2]" started-at="2026-02-21T16:50:08 IST" name="tearDown" finished-at="2026-02-21T16:50:08 IST" duration-ms="376" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:about.ViewAboutTest@1e178745]" started-at="2026-02-22T07:23:03 IST" name="tearDown" finished-at="2026-02-22T07:23:03 IST" duration-ms="392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

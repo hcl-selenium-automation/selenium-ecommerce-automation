@@ -1,25 +1,23 @@
 <suite name="Suite" parallel="false">
-  <test name="Shop Tests">
-    <classes>
-      <class name="shoppage.verify_ShopPage"/>
-      <class name="shoppage.verify_Category"/>
-      <class name="shoppage.verify_AscendingPrice"/>
-      <class name="shoppage.verify_DescendingPrice"/>
-      <class name="shoppage.verify_TopRated"/>
-      <class name="shoppage.verify_Newest"/>
-      <class name="shoppage.validate_product1"/>
-      <class name="shoppage.verify_productDetails"/>
-      <class name="shoppage.verify_product_ToCart"/>
-      <class name="cart_page.OpenCart"/>
-      <class name = "cart_page.Verify_ProductDisplay"/>
-        <class name = "cart_page.verify_removeProduct"/>
-        <class name = "cart_page.verify_browseProduct"/>
-          <class name="shoppage.verify_directToCart"/>
-            <class name="cart_page.verify_ContinueShopping"/>
-             <class name="shoppage.validate_product2"/> 
-               <class name = "cart_page.verify_checkOut"/> 
-                 
-        
-    </classes>
-  </test>
+	<test name="Shop Tests">
+		<classes>
+			<class name="shoppage.verify_ShopPage" />
+			<class name="shoppage.verify_Category" />
+			<class name="shoppage.verify_AscendingPrice" />
+			<class name="shoppage.verify_DescendingPrice" />
+			<class name="shoppage.verify_TopRated" />
+			<class name="shoppage.verify_Newest" />
+			<class name="shoppage.validate_product1" />
+			<class name="shoppage.verify_productDetails" />
+			<class name="shoppage.verify_product_ToCart" />
+			<class name="cart_page.OpenCart" />
+			<class name="cart_page.Verify_ProductDisplay" />
+			<class name="cart_page.verify_removeProduct" />
+			<class name="cart_page.verify_browseProduct" />
+			<class name="shoppage.verify_directToCart" />
+			<class name="cart_page.verify_ContinueShopping" />
+			<class name="shoppage.validate_product2" />
+			<class name="cart_page.verify_checkOut" />
+		</classes>
+	</test>
 </suite>
