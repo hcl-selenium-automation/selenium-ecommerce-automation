@@ -1,5 +1,6 @@
 package home;
 
+<<<<<<< HEAD
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -18,3 +19,17 @@ public class HomeTest extends BaseTest{
 		 home.openHomePage();
 	}
 }
+=======
+import org.testng.annotations.Test;
+
+import base.BaseTest;
+
+public class HomeTest extends BaseTest {
+	@Test
+	public void verify_Registration() {
+	    Home h = new Home(driver);
+	    h.clickRegisterPage();
+	}
+}
+
+>>>>>>> 2a746d6 (add login and registration)
