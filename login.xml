@@ -5,7 +5,7 @@
 	</listeners>
 	<test name="Test">
 		<classes>
-		     <class name="login.LoginTest" />
+		     <class name="about.ViewAboutTest" />
 		</classes>
 	</test> <!--
 	Test -->

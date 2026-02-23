@@ -11,10 +11,4 @@ public class OrderSuccess extends BasePage {
         super(driver);
     }
 
-    @FindBy(xpath = "//h1[contains(text(),'Order Successful')]")
-    private WebElement orderSuccessMessage;
-
-    public boolean isOrderSuccessMessageDisplayed() {
-        return orderSuccessMessage.isDisplayed();
-    }
 }

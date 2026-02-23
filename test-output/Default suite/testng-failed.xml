@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="registration.RegistrationTest">
+      <class name="support.ClickLinkedIn">
         <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="testRegisterUser"/>
-          <include name="testRegisterButton"/>
-          <include name="initPages"/>
+          <include name="clickOnLinkedIn"/>
         </methods>
-      </class> <!-- registration.RegistrationTest -->
+      </class> <!-- support.ClickLinkedIn -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
